@@ -1,4 +1,4 @@
-from jupswap import get_token_values_for_wallet, get_public_key_as_str, get_sol_balance
+from jupswapper import get_token_values_for_wallet, get_public_key_as_str, get_sol_balance
 from pprint import pprint
 
 wallet_address = get_public_key_as_str()

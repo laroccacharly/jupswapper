@@ -15,3 +15,7 @@ export HELIUS_API_KEY="op://Personal/HELIUS_API_KEY/credential"
 alias swap="op run -- uv run examples/swap_sol_for_bonk.py"
 alias wallet="op run -- uv run examples/wallet.py"
 
+# build and publish
+alias install_twine="pip install build twine"
+alias build="python -m build"
+alias publish="python -m twine upload dist/*"

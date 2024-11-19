@@ -5,4 +5,4 @@ basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s'
 )
 
-logger = getLogger("jupswap")
+logger = getLogger("jupswapper")

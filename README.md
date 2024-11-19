@@ -1,4 +1,4 @@
-# jupswap
+# jupswapper
 
 A Python package for token swapping and wallet interactions on Solana using Jupiter Aggregator and Helius RPC endpoints.
 
@@ -18,9 +18,9 @@ A Python package for token swapping and wallet interactions on Solana using Jupi
 
 ## Installation
 
-Install `jupswap` using pip:
-
-    pip install jupswap
+Install `jupswapper` using pip:
+    
+    pip install jupswapper
 
 ## Configuration
 
@@ -39,7 +39,7 @@ See `examples/` for the following scripts.
 
 ### Performing a Token Swap
 ```python
-from jupswap import Swap, SOL_MINT, BONK_MINT, try_swap
+from jupswapper import Swap, SOL_MINT, BONK_MINT, try_swap
 
 # Swap 0.01 SOL to BONK
 swap = Swap(from_mint=SOL_MINT, to_mint=BONK_MINT, amount=0.01)
@@ -49,7 +49,7 @@ print(transaction_response)
 
 ### Checking Wallet Balance
 ```python
-from jupswap import get_token_values_for_wallet, get_public_key_as_str, get_sol_balance
+from jupswapper import get_token_values_for_wallet, get_public_key_as_str, get_sol_balance
 
 wallet_address = get_public_key_as_str()
 token_values = get_token_values_for_wallet(wallet_address)
