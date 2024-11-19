@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "jupswapper"
-version = "0.1.0"
+version = "0.1.1"
 description = "A Python package for token swapping and wallet interactions on Solana using Jupiter Aggregator"
 readme = "README.md"
 authors = [
