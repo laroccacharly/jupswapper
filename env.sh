@@ -8,7 +8,6 @@ if [ -d ".venv" ]; then
     activate_venv
 fi
 
-export PYTHONPATH="$(pwd)"
 
 export SECRET_WORDS="op://Personal/Worker1/recovery phrase"
 export HELIUS_API_KEY="op://Personal/HELIUS_API_KEY/credential"
