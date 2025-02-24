@@ -1,6 +1,6 @@
 # jupswapper
 
-A Python package for token swapping and wallet interactions on Solana using Jupiter Aggregator and Helius RPC endpoints.
+A Python package to swap tokens using Jupiter Aggregator and Helius RPC.
 
 ## Key Features
 
@@ -8,7 +8,6 @@ A Python package for token swapping and wallet interactions on Solana using Jupi
 - 💰 Wallet balance checking with USD valuations
 - 💸 SOL balance 
 - 🛡️ Built-in retry mechanisms for robust transaction handling
-- 📊 Automatic slippage protection from Jupiter Aggregator
 
 ## Prerequisites
 
